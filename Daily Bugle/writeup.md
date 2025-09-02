@@ -1,5 +1,5 @@
 ------------------------------------------TASK - 1------------------------------------------
-#1.1 Deloy the Machine
+- 1.1 Deloy the Machine
 ![Deploy Screenshot](screenshots/image1.png)
 
 Q1: Access the Web-Server, who robbed the bank? 
