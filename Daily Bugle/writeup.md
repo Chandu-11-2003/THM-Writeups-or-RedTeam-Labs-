@@ -3,7 +3,7 @@
 ![Deploy Screenshot](screenshots/image1.png)
 
 Q1: Access the Web-Server, who robbed the bank? 
-Steps:
+- Steps:
 
 - Go to the target machine IP address in your browser and access the web page.
 - In the Home page itself you can find the answer for the question.
@@ -11,8 +11,8 @@ Steps:
 ![Deploy Screenshot](screenshots/image2.png)
 
 ------------------------------------------TASK - 2------------------------------------------
-2.1 Obtain User and Root privileges
-Steps:
+- 2.1 Obtain User and Root privileges
+- Steps:
 
 - Enumerate the home page using the gobuster, dirsearch, etc..
 - For gobuster:
@@ -26,7 +26,7 @@ Steps:
 - The administrator login page will be present.
 
 Q2: What is the Joomla version?
-Steps:
+- Steps:
 
 - Use joomscan to scan the joomla vulnerabiltiy and version.
 - After finding the joomla version, search in the terminal using searchsploit joomla x.x.x (version) or google it.
@@ -125,20 +125,20 @@ Steps:
 
 ----------------------------------------------------------QUESTION AND ANSWERS----------------------------------------------------------
 
-What is the Joomla version?
+- What is the Joomla version?
 3.7.0
 
-What is Jonah’s cracked password?
+- What is Jonah’s cracked password?
 spiderman123
 
-What is the user flag?
+- What is the user flag?
 27a260fe3cba712cfdedb1c86d80442e
 
-What is the root flag?
+- What is the root flag?
 eec3d53292b1821868266858d7fa6f79
 
 
-Conclusion:
+- Conclusion:
 
 The Daily Bugle room demonstrates web enumeration, Joomla exploitation, credential cracking, and privilege escalation. By leveraging enumeration tools, exploiting Joomla, and using GTFOBins for privilege escalation, you gain user and root access, showcasing key real-world penetration testing techniques from initial access to full system compromise.
 
